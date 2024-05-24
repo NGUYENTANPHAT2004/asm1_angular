@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div
+      class="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start pt-[21px] px-0 pb-0 box-border leading-[normal] tracking-[normal]"
+    >
+      <section
+        class="self-stretch h-[153px] flex flex-col items-end justify-start gap-[29px] top-[0] z-[99] sticky max-w-full text-left text-sm text-darkslategray-700 font-poppins"
+      >
+        <div
+          class="w-[1428px] flex flex-row items-start justify-end py-0 px-[49px] box-border max-w-full mq800:pl-6 mq800:pr-6 mq800:box-border"
+        >
+          <div
+            class="flex-1 flex flex-row items-center justify-between max-w-full gap-[20px]"
+          >
+            <div class="relative">Need help? Call us: (+98) 0234 456 789</div>
+            <div
+              class="flex flex-row items-center justify-center gap-[36px] mq450:gap-[18px]"
+            >
+              <div class="flex flex-row items-center justify-center gap-[20px]">
+                <img
+                  class="h-6 w-6 relative min-h-[24px]"
+                  loading="lazy"
+                  alt=""
+                  src="/public/vuesaxlinearlocation.svg"
+                />
+
+                <div class="relative inline-block min-w-[65px]">Our store</div>
+              </div>
+              <div class="flex flex-row items-center justify-center gap-[19px]">
+                <img
+                  class="h-6 w-6 relative min-h-[24px]"
+                  alt=""
+                  src="/public/vuesaxlineargroup.svg"
+                />
+
+                <div class="relative inline-block min-w-[115px]">
+                  Track your order
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <header
+          class="self-stretch flex-1 bg-a flex flex-row items-center justify-between py-[22px] px-[68px] box-border max-w-full gap-[20px] text-left text-sm text-darkslategray-700 font-poppins mq800:pl-[34px] mq800:pr-[34px] mq800:box-border"
+        >
+          <div
+            class="self-stretch w-[663px] flex flex-row items-center justify-center gap-[85px] max-w-full mq800:gap-[42px] mq450:gap-[21px]"
+          >
+            <img
+              class="h-[39px] w-[140px] relative object-cover"
+              loading="lazy"
+              alt=""
+              src="/public/logo-1@2x.png"
+            />
+
+            <div
+              class="self-stretch flex-1 rounded-xl bg-white flex flex-row items-center justify-start py-0 pr-0 pl-[25px] box-border relative gap-[10px] max-w-full"
+            >
+              <div
+                class="relative inline-block min-w-[127px] whitespace-nowrap"
+              >
+                Serach any things
+              </div>
+              <button
+                class="cursor-pointer [border:none] py-[17.5px] px-[41px] bg-b !m-[0] absolute top-[0px] left-[306px] rounded-xl flex flex-row items-center justify-center hover:bg-darkgoldenrod"
+              >
+                <div
+                  class="relative text-sm font-semibold font-poppins text-white text-left inline-block min-w-[50px]"
+                >
+                  Search
+                </div>
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex flex-row items-center justify-center gap-[29px] max-w-full text-3xs-5 text-white"
+          >
+            <div
+              class="flex flex-row items-center justify-center gap-[12px] text-sm"
+            >
+              <img
+                class="h-6 w-6 relative min-h-[24px]"
+                loading="lazy"
+                alt=""
+                src="/public/vuesaxlinearuser.svg"
+              />
+
+              <div class="relative inline-block min-w-[47px] whitespace-nowrap">
+                Sign in
+              </div>
+            </div>
+            <div class="flex flex-row items-center justify-center gap-[12px]">
+              <div class="flex flex-row items-center justify-center gap-[3px]">
+                <img
+                  class="h-6 w-6 relative"
+                  loading="lazy"
+                  alt=""
+                  src="/public/vuesaxlinearheart.svg"
+                />
+
+                <div
+                  class="rounded-[394.74px] bg-b flex flex-col items-center justify-center py-[0.5px] px-[4.1px]"
+                >
+                  <div class="relative inline-block min-w-[6px]">0</div>
+                </div>
+              </div>
+              <div
+                class="relative text-sm inline-block min-w-[47px] whitespace-nowrap"
+              >
+                Sign in
+              </div>
+            </div>
+            <div class="flex flex-row items-center justify-center gap-[12px]">
+              <div class="flex flex-row items-center justify-center gap-[3px]">
+                <img
+                  class="h-6 w-6 relative"
+                  alt=""
+                  src="/public/vuesaxlinearshoppingcart.svg"
+                />
+
+                <div
+                  class="rounded-[394.74px] bg-b flex flex-col items-center justify-center py-[0.5px] px-[4.1px]"
+                >
+                  <div class="relative inline-block min-w-[6px]">0</div>
+                </div>
+              </div>
+              <div class="relative text-sm inline-block min-w-[31px]">Cart</div>
+            </div>
+          </div>
+        </header>
+      </section>
+      <section
+        class="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-24 box-border gap-[31px] max-w-full text-left text-base text-white font-poppins mq800:gap-[15px] mq800:pb-[62px] mq800:box-border mq450:pb-10 mq450:box-border"
+      >
+        <div
+          class="self-stretch flex flex-col items-start justify-start max-w-full"
+        >
+          <div
+            class="self-stretch bg-whitesmoke-100 flex flex-row flex-wrap items-center justify-center py-[0.5px] px-[63px] box-border gap-[98px] max-w-full z-[1] mq800:gap-[49px] mq800:pl-[31px] mq800:pr-[31px] mq800:box-border mq450:gap-[24px]"
+          >
+            <div
+              class="bg-b flex flex-row items-center justify-center py-[23px] px-[14.5px] gap-[16px] whitespace-nowrap"
+            >
+              <div class="relative font-medium">Browse categories</div>
+              <img
+                class="h-6 w-6 relative min-h-[24px]"
+                alt=""
+                src="/public/vuesaxlineararrowdown.svg"
+              />
+            </div>
+            <div
+              class="flex-1 flex flex-row items-center justify-between py-5 px-0 box-border min-w-[649px] max-w-full gap-[20px] text-darkslategray-400 mq800:flex-wrap mq1125:min-w-full"
+            >
+              <div
+                class="flex flex-row items-center justify-center gap-[29px] max-w-full mq800:flex-wrap"
+              >
+                <div
+                  class="flex flex-row items-center justify-center gap-[16px]"
+                >
+                  <div class="relative font-medium inline-block min-w-[48px]">
+                    Home
+                  </div>
+                  <img
+                    class="h-6 w-6 relative min-h-[24px]"
+                    alt=""
+                    src="/public/vuesaxlineararrowdown-1.svg"
+                  />
+                </div>
+                <div
+                  class="flex flex-row items-center justify-center gap-[16px]"
+                >
+                  <div class="relative font-medium inline-block min-w-[66px]">
+                    Catalog
+                  </div>
+                  <img
+                    class="h-6 w-6 relative min-h-[24px]"
+                    alt=""
+                    src="/public/vuesaxlineararrowdown-1.svg"
+                  />
+                </div>
+                <div class="flex flex-row items-center justify-center">
+                  <div class="relative font-medium inline-block min-w-[36px]">
+                    Blog
+                  </div>
+                </div>
+                <div
+                  class="flex flex-row items-center justify-center gap-[16px]"
+                >
+                  <div class="relative font-medium inline-block min-w-[50px]">
+                    Pages
+                  </div>
+                  <img
+                    class="h-6 w-6 relative min-h-[24px]"
+                    alt=""
+                    src="/public/vuesaxlineararrowdown-1.svg"
+                  />
+                </div>
+                <div class="flex flex-row items-center justify-center">
+                  <div class="relative font-medium inline-block min-w-[72px]">
+                    About us
+                  </div>
+                </div>
+              </div>
+              <b class="relative text-a">30 Days Free Return</b>
+            </div>
+          </div>
+          <div
+            class="self-stretch bg-gray-100 flex flex-row items-start justify-start py-[26px] px-[63px] box-border gap-[15.3px] max-w-full mt-[-1px] text-darkslategray-400 mq450:flex-wrap mq450:justify-center mq450:pl-5 mq450:pr-5 mq450:box-border"
+          >
+            <div
+              class="h-[76px] w-[1440px] relative bg-gray-100 hidden max-w-full"
+            ></div>
+            <div class="relative font-medium inline-block min-w-[48px] z-[1]">
+              Home
+            </div>
+            <img
+              class="h-6 w-6 relative object-contain min-h-[24px] z-[1]"
+              alt=""
+              src="/public/vuesaxlineararrowdown-4@2x.png"
+            />
+
+            <div class="relative font-medium inline-block min-w-[97px] z-[1]">
+              All category
+            </div>
+            <img
+              class="h-6 w-6 relative object-contain min-h-[24px] z-[1]"
+              alt=""
+              src="/public/vuesaxlineararrowdown-4@2x.png"
+            />
+          </div>
+        </div>
+        <div
+          class="self-stretch flex flex-row items-start justify-start py-0 px-[61px] box-border max-w-full text-3xl-7 text-darkslategray-600 mq800:pl-[30px] mq800:pr-[30px] mq800:box-border"
+        >
+          <div
+            class="flex-1 flex flex-row items-start justify-start gap-[20px] max-w-full mq1325:flex-wrap"
+          >
+            <div
+              class="flex-1 flex flex-col items-start justify-start gap-[30px] max-w-full mq800:min-w-full"
+            >
+              <div
+                class="self-stretch flex flex-col items-end justify-start gap-[26px] max-w-full"
+              >
+                <div
+                  class="self-stretch bg-aliceblue flex flex-row items-start justify-between pt-2.5 pb-[15px] pr-[86px] pl-[34px] box-border max-w-full gap-[20px] text-xl-7 text-gray-700 mq800:flex-wrap mq1125:pr-[43px] mq1125:box-border mq450:pr-5 mq450:box-border"
+                >
+                  <div
+                    class="h-14 w-[872px] relative bg-aliceblue hidden max-w-full"
+                  ></div>
+                  <div
+                    class="relative font-medium inline-block min-w-[82px] z-[1] mq450:text-mid"
+                  >
+                    Product
+                  </div>
+                  <div
+                    class="w-[420px] flex flex-row items-start justify-start gap-[82px] max-w-full mq450:flex-wrap mq450:gap-[41px]"
+                  >
+                    <div
+                      class="w-[76px] flex flex-col items-start justify-start py-0 pr-5 pl-0 box-border"
+                    >
+                      <div
+                        class="relative font-medium inline-block min-w-[51px] z-[1] mq450:text-mid"
+                      >
+                        Price
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 relative font-medium inline-block min-w-[59px] z-[1] mq450:text-mid"
+                    >
+                      Quantity
+                    </div>
+                    <div
+                      class="flex-1 relative font-medium inline-block min-w-[59px] z-[1] mq450:text-mid"
+                    >
+                      Subtotal
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="self-stretch flex flex-row items-center justify-between gap-[20px] mq800:flex-wrap"
+                >
+                  <div
+                    class="w-[285px] flex flex-row items-center justify-center gap-[21px] text-xl-7"
+                  >
+                    <img
+                      class="h-[119px] flex-1 relative rounded-xl max-w-full overflow-hidden object-cover"
+                      loading="lazy"
+                      alt=""
+                      src="/public/6456332-sd-11@2x.png"
+                    />
+
+                    <div
+                      class="flex flex-col items-start justify-center gap-[11px]"
+                    >
+                      <div
+                        class="relative font-semibold text-a inline-block min-w-[113px] mq450:text-mid"
+                      >
+                        Play game
+                      </div>
+                      <div
+                        class="relative inline-block min-w-[128px] mq450:text-mid"
+                      >
+                        Color: Green
+                      </div>
+                      <div
+                        class="relative inline-block min-w-[75px] mq450:text-mid"
+                      >
+                        Size: 30
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="relative font-medium inline-block min-w-[69px] whitespace-nowrap mq450:text-lg"
+                  >
+                    $ 11,70
+                  </div>
+                  <div
+                    class="w-[133px] flex flex-row items-center justify-center py-5 px-0 box-border text-lg-2 text-darkslategray-200"
+                  >
+                    <div
+                      class="w-[35px] bg-whitesmoke-200 box-border flex flex-row items-center justify-center py-px px-[11px] border-[1px] border-solid border-silver-300"
+                    >
+                      <div class="flex flex-row items-center justify-center">
+                        <div
+                          class="relative font-medium inline-block min-w-[11px]"
+                        >
+                          -
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 bg-whitesmoke-200 flex flex-row items-center justify-center py-px px-[27px] border-[1px] border-solid border-silver-300"
+                    >
+                      <div class="flex flex-row items-center justify-center">
+                        <div
+                          class="relative font-medium inline-block min-w-[7px]"
+                        >
+                          1
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="w-[35px] bg-whitesmoke-200 box-border flex flex-row items-center justify-center py-px px-2.5 border-[1px] border-solid border-silver-300"
+                    >
+                      <div class="flex flex-row items-center justify-center">
+                        <div
+                          class="relative font-medium inline-block min-w-[13px]"
+                        >
+                          +
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="relative font-medium inline-block min-w-[69px] whitespace-nowrap mq450:text-lg"
+                  >
+                    $ 11,70
+                  </div>
+                  <img
+                    class="h-6 w-6 relative"
+                    loading="lazy"
+                    alt=""
+                    src="/public/vuesaxlinearclosecircle.svg"
+                  />
+                </div>
+                <div
+                  class="self-stretch h-px relative box-border border-t-[1px] border-solid border-silver-200"
+                ></div>
+                <div
+                  class="self-stretch flex flex-row items-start justify-end py-0 pr-[3px] pl-0 box-border max-w-full"
+                >
+                  <div
+                    class="flex-1 flex flex-row items-center justify-between max-w-full gap-[20px] mq800:flex-wrap"
+                  >
+                    <div
+                      class="flex flex-row items-center justify-center gap-[21px] text-xl-7"
+                    >
+                      <img
+                        class="h-[88px] w-[132px] relative rounded-xl overflow-hidden shrink-0 object-contain"
+                        loading="lazy"
+                        alt=""
+                        src="/public/frame-142@2x.png"
+                      />
+
+                      <div
+                        class="flex flex-col items-start justify-center gap-[11px]"
+                      >
+                        <div
+                          class="relative font-semibold text-a inline-block min-w-[113px] mq450:text-mid"
+                        >
+                          Play game
+                        </div>
+                        <div
+                          class="relative inline-block min-w-[121px] mq450:text-mid"
+                        >
+                          Color: Black
+                        </div>
+                        <div
+                          class="relative inline-block min-w-[75px] mq450:text-mid"
+                        >
+                          Size: 30
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="relative font-medium inline-block min-w-[69px] whitespace-nowrap mq450:text-lg"
+                    >
+                      $ 11,70
+                    </div>
+                    <div
+                      class="w-[133px] flex flex-row items-center justify-center py-5 px-0 box-border text-lg-2 text-darkslategray-200"
+                    >
+                      <div
+                        class="w-[35px] bg-whitesmoke-200 box-border flex flex-row items-center justify-center py-px px-[11px] border-[1px] border-solid border-silver-300"
+                      >
+                        <div class="flex flex-row items-center justify-center">
+                          <div
+                            class="relative font-medium inline-block min-w-[11px]"
+                          >
+                            -
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1 bg-whitesmoke-200 flex flex-row items-center justify-center py-px px-[27px] border-[1px] border-solid border-silver-300"
+                      >
+                        <div class="flex flex-row items-center justify-center">
+                          <div
+                            class="relative font-medium inline-block min-w-[7px]"
+                          >
+                            1
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="w-[35px] bg-whitesmoke-200 box-border flex flex-row items-center justify-center py-px px-2.5 border-[1px] border-solid border-silver-300"
+                      >
+                        <div class="flex flex-row items-center justify-center">
+                          <div
+                            class="relative font-medium inline-block min-w-[13px]"
+                          >
+                            +
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="relative font-medium inline-block min-w-[69px] whitespace-nowrap mq450:text-lg"
+                    >
+                      $ 11,70
+                    </div>
+                    <img
+                      class="h-6 w-6 relative"
+                      alt=""
+                      src="/public/vuesaxlinearclosecircle.svg"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="self-stretch h-px relative box-border border-t-[1px] border-solid border-silver-200"
+                ></div>
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start gap-[61px] mq1125:flex-wrap mq1125:gap-[30px] mq450:gap-[15px]"
+              >
+                <button
+                  class="cursor-pointer [border:none] py-[19.5px] px-[37px] bg-b rounded-[32.42px] flex flex-row items-start justify-start whitespace-nowrap hover:bg-darkgoldenrod"
+                >
+                  <div
+                    class="relative text-3xl-7 font-semibold font-poppins text-white text-left"
+                  >
+                    Continue shopping
+                  </div>
+                </button>
+                <div
+                  class="flex flex-col items-start justify-start py-0 pr-[9px] pl-0"
+                >
+                  <button
+                    class="cursor-pointer py-[18px] px-[41px] bg-[transparent] rounded-[32.42px] flex flex-row items-start justify-start whitespace-nowrap border-[1px] border-solid border-darkgray-300 hover:bg-gray-900 hover:box-border hover:border-[1px] hover:border-solid hover:border-gray-500"
+                  >
+                    <div
+                      class="relative text-3xl-7 font-semibold font-poppins text-gray-400 text-left"
+                    >
+                      Update cart
+                    </div>
+                  </button>
+                </div>
+                <button
+                  class="cursor-pointer py-[18px] px-[53px] bg-[transparent] rounded-[32.42px] flex flex-row items-start justify-start whitespace-nowrap border-[1px] border-solid border-firebrick-100 hover:bg-indianred-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-indianred-100"
+                >
+                  <div
+                    class="relative text-3xl-7 font-semibold font-poppins text-firebrick-200 text-left inline-block min-w-[115px]"
+                  >
+                    Clear cart
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div
+              class="w-[426px] box-border flex flex-col items-start justify-start pt-0 px-0 pb-[21px] gap-[21px] min-w-[426px] max-w-full text-base-7 text-gray-700 border-[1px] border-solid border-silver-200 mq800:min-w-full mq1325:flex-1"
+            >
+              <button
+                class="cursor-pointer [border:none] py-[12.5px] px-5 bg-aliceblue self-stretch flex flex-row items-start justify-center whitespace-nowrap hover:bg-gainsboro-300"
+              >
+                <div
+                  class="relative text-xl-7 font-medium font-poppins text-gray-700 text-left inline-block min-w-[100px]"
+                >
+                  Cart total
+                </div>
+              </button>
+              <div
+                class="self-stretch flex flex-row items-start justify-start py-0 pr-[42px] pl-[42.5px] box-border max-w-full mq450:pl-5 mq450:pr-5 mq450:box-border"
+              >
+                <div
+                  class="flex-1 flex flex-col items-start justify-start gap-[28px] max-w-full"
+                >
+                  <div
+                    class="self-stretch flex flex-col items-start justify-start gap-[20px] max-w-full"
+                  >
+                    <div
+                      class="self-stretch flex flex-row items-start justify-start gap-[34px] text-lgi-7 mq450:flex-wrap mq450:gap-[17px]"
+                    >
+                      <div
+                        class="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border min-w-[113px]"
+                      >
+                        <div class="self-stretch relative font-medium">
+                          Subtotal
+                        </div>
+                      </div>
+                      <div
+                        class="w-[131px] relative text-3xl-7 font-medium text-right inline-block shrink-0 whitespace-nowrap mq450:text-lg"
+                      >
+                        $ 23,20
+                      </div>
+                    </div>
+                    <div
+                      class="self-stretch h-[13px] flex flex-row items-start justify-start pt-0 pb-3 pr-0.5 pl-[3px] box-border max-w-full"
+                    >
+                      <div
+                        class="self-stretch flex-1 relative box-border max-w-full border-t-[1px] border-solid border-darkgray-100"
+                      ></div>
+                    </div>
+                    <div
+                      class="self-stretch flex flex-row items-start justify-start pt-0 px-[3px] pb-[13px] box-border max-w-full"
+                    >
+                      <div
+                        class="flex-1 rounded-xl box-border flex flex-row items-start justify-between pt-[13px] pb-[9px] pr-[21px] pl-[22px] max-w-full gap-[20px] border-[1px] border-solid border-gainsboro-100 mq450:flex-wrap"
+                      >
+                        <div class="relative">Enter coupon code</div>
+                        <div
+                          class="flex flex-col items-start justify-start pt-[6.5px] px-0 pb-0 text-[14.7px] text-a"
+                        >
+                          <div
+                            class="relative font-medium inline-block min-w-[43px]"
+                          >
+                            Apply
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="self-stretch h-[13px] flex flex-row items-start justify-start pt-0 pb-3 pr-0.5 pl-[3px] box-border max-w-full"
+                    >
+                      <div
+                        class="self-stretch flex-1 relative box-border max-w-full border-t-[1px] border-solid border-darkgray-100"
+                      ></div>
+                    </div>
+                    <div
+                      class="self-stretch flex flex-row items-start justify-start py-0 px-[3px] box-border max-w-full"
+                    >
+                      <div
+                        class="flex-1 rounded-xl box-border flex flex-row items-start justify-between pt-[13px] pb-[9px] pr-6 pl-[22px] max-w-full gap-[20px] border-[1px] border-solid border-gainsboro-100"
+                      >
+                        <div class="relative inline-block min-w-[61px]">
+                          County
+                        </div>
+                        <div
+                          class="flex flex-col items-start justify-start pt-[4.5px] px-0 pb-0"
+                        >
+                          <img
+                            class="w-6 h-6 relative"
+                            alt=""
+                            src="/public/vuesaxlineararrowdown-1.svg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-row items-start justify-start gap-[34px] mq450:flex-wrap mq450:gap-[17px]"
+                  >
+                    <div
+                      class="flex-1 flex flex-col items-start justify-start pt-[1.5px] px-0 pb-0 box-border min-w-[113px]"
+                    >
+                      <div class="self-stretch relative">Total amount</div>
+                    </div>
+                    <div
+                      class="w-[131px] relative text-[18.7px] text-right inline-block shrink-0 whitespace-nowrap"
+                    >
+                      $ 23,20
+                    </div>
+                  </div>
+                  <button
+                    class="cursor-pointer [border:none] py-[10.5px] px-[62px] bg-b self-stretch rounded-[32.42px] flex flex-row items-start justify-start whitespace-nowrap hover:bg-darkgoldenrod mq450:pl-5 mq450:pr-5 mq450:box-border"
+                  >
+                    <div
+                      class="relative text-xl-7 font-semibold font-poppins text-white text-left"
+                    >
+                      Proceed to ckeckout
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="self-stretch bg-aliceblue flex flex-col items-start justify-start py-[42px] px-[60px] box-border gap-[41px] max-w-full text-left text-10xl-4 text-steelblue-700 font-poppins mq800:gap-[20px] mq800:py-[27px] mq800:px-[30px] mq800:box-border"
+      >
+        <div
+          class="self-stretch rounded-xl bg-white flex flex-row items-center justify-between py-[38px] px-[95.5px] box-border max-w-full gap-[20px] mq800:pl-[23px] mq800:pr-[23px] mq800:box-border mq1325:flex-wrap mq1325:pl-[47px] mq1325:pr-[47px] mq1325:box-border"
+        >
+          <b class="relative mq450:text-5xl">Subscribe newsletter</b>
+          <div
+            class="w-[673px] flex flex-row items-center justify-center gap-[88px] max-w-full text-sm text-white mq800:flex-wrap mq800:gap-[44px] mq450:gap-[22px]"
+          >
+            <div
+              class="flex-1 rounded-xl bg-b flex flex-row items-center justify-start pt-5 pb-[19px] pr-[21px] pl-[25px] box-border relative gap-[10px] min-w-[101px] min-h-[63px] whitespace-nowrap max-w-full"
+            >
+              <div class="relative font-semibold inline-block min-w-[101px]">
+                Email address
+              </div>
+              <img
+                class="h-6 w-6 absolute !m-[0] top-[20px] left-[343px]"
+                alt=""
+                src="/public/vuesaxlinearsend21.svg"
+              />
+            </div>
+            <div
+              class="flex flex-row items-center justify-center gap-[20px] text-dimgray-100"
+            >
+              <img
+                class="h-[45px] w-[45px] relative min-h-[45px]"
+                loading="lazy"
+                alt=""
+                src="/public/vuesaxlinearheadphone.svg"
+              />
+
+              <div class="relative font-semibold">
+                <p class="m-0">Call us 24/7 :</p>
+                <p class="m-0">(+62) 0123 567 789</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer
+          class="self-stretch flex flex-row items-start justify-start py-0 pr-[3px] pl-[3.5px] box-border max-w-full text-left text-base-4 text-steelblue-700 font-poppins"
+        >
+          <div
+            class="flex-1 flex flex-row flex-wrap items-start justify-start gap-[80px] max-w-full mq800:gap-[40px] mq450:gap-[20px]"
+          >
+            <div
+              class="w-[250px] flex flex-col items-start justify-start gap-[41px] mq450:gap-[20px]"
+            >
+              <img
+                class="w-[140px] h-[39px] relative object-cover"
+                loading="lazy"
+                alt=""
+                src="/public/logo1-1@2x.png"
+              />
+
+              <div
+                class="self-stretch flex flex-col items-start justify-start gap-[36px] mq450:gap-[18px]"
+              >
+                <div class="relative">
+                  <p class="m-0">64 st james boulevard</p>
+                  <p class="m-0">hoswick , ze2 7zj</p>
+                </div>
+                <div
+                  class="self-stretch flex flex-col items-start justify-start gap-[22px]"
+                >
+                  <div
+                    class="self-stretch h-px relative box-border border-t-[1px] border-solid border-darkgray-500"
+                  ></div>
+                  <div
+                    class="w-[146px] flex flex-row items-start justify-between gap-[20px]"
+                  >
+                    <img
+                      class="h-6 w-6 relative min-h-[24px]"
+                      loading="lazy"
+                      alt=""
+                      src="/public/vuesaxlineargoogle.svg"
+                    />
+
+                    <img
+                      class="h-6 w-6 relative min-h-[24px]"
+                      loading="lazy"
+                      alt=""
+                      src="/public/vuesaxlinearfacebook.svg"
+                    />
+
+                    <div class="h-6 w-6 relative">
+                      <img
+                        class="absolute top-[0px] left-[0px] w-full h-full"
+                        alt=""
+                        src="/public/vuesaxlinearwhatsapp.svg"
+                      />
+
+                      <img
+                        class="absolute top-[0px] left-[0px] w-full h-full z-[1]"
+                        alt=""
+                        src="/public/vuesaxlinearfacebook-2.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex-1 flex flex-row items-start justify-between min-w-[639px] max-w-full gap-[20px] text-lgi-4 mq800:flex-wrap mq1125:min-w-full"
+            >
+              <div class="flex flex-col items-start justify-start gap-[14.6px]">
+                <div class="relative font-semibold inline-block min-w-[125px]">
+                  Find product
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative">Brownze arnold</div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative">Chronograph blue</div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative">Smart phones</div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[11px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="h-[29px] relative inline-block">
+                    Automatic watch
+                  </div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative">Hair straighteners</div>
+                </div>
+              </div>
+              <div class="flex flex-col items-start justify-start gap-[14.6px]">
+                <div class="relative font-semibold inline-block min-w-[83px]">
+                  Get help
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative inline-block min-w-[86px]">About us</div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative inline-block min-w-[107px]">
+                    Contact us
+                  </div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative inline-block min-w-[126px]">
+                    Return policy
+                  </div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative">Privacy policy</div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative">Payment policy</div>
+                </div>
+              </div>
+              <div class="flex flex-col items-start justify-start gap-[14.6px]">
+                <div class="relative font-semibold inline-block min-w-[88px]">
+                  About us
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative inline-block min-w-[52px]">News</div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative inline-block min-w-[71px]">Service</div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative inline-block min-w-[98px]">
+                    Our policy
+                  </div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative">Custmer care</div>
+                </div>
+                <div class="flex flex-row items-start justify-start gap-[12px]">
+                  <div
+                    class="flex flex-col items-start justify-start pt-[9.5px] px-0 pb-0"
+                  >
+                    <div
+                      class="w-2.5 h-2.5 relative rounded-[50%] bg-gainsboro-200"
+                    ></div>
+                  </div>
+                  <div class="relative inline-block min-w-[51px]">Faq’s</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
