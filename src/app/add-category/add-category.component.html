@@ -1,0 +1,8 @@
+<form [formGroup]="categoryForm" (ngSubmit)="onSubmit()" class="max-w-md mx-auto p-6 bg-white shadow-md rounded-md">
+  <div class="mb-4">
+    <label for="name" class="block text-gray-700 font-bold mb-2">Tên danh mục:</label>
+    <input type="text" formControlName="name" id="name" class="border-2 border-gray-300 rounded-md p-2 w-full focus:outline-none focus:border-blue-500">
+    <div *ngIf="categoryForm.get('name')?.errors && categoryForm.get('name')?.touched" class="text-red-500 text-sm mt-1">Tên danh mục không được để trống</div>
+  </div>
+  <button type="submit"  class="bg-blue-500 text-white font-bold py-2 px-4 rounded-md focus:outline-none focus:shadow-outline hover:bg-blue-600">Thêm danh mục</button>
+</form>

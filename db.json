@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "id": "d58a",
+      "name": "ManhTran",
+      "email": "tttp1704@gmail.com",
+      "password": "212323232"
+    },
+    {
+      "id": "bced",
+      "name": "Nguyễn Tấn Phát",
+      "email": "tttp1704@gmail.com",
+      "password": "12345667"
+    },
+    {
+      "id": "87de",
+      "name": "phat123",
+      "email": "tttp1704@gmail.111",
+      "password": "212323232"
+    },
+    {
+      "id": "4e0a",
+      "name": "sdfsdfsdfsd",
+      "email": "tttp1704@gmail.1111",
+      "password": "212323232"
+    },
+    {
+      "id": "ccec",
+      "name": "sdfsdfsdfsd",
+      "email": "tttp1704@gmail.1111",
+      "password": "212323232"
+    },
+    {
+      "id": "e61a",
+      "name": "sdfsadfsadf",
+      "email": "tttp1704@gmail.111111",
+      "password": "212323232"
+    },
+    {
+      "id": "6df3",
+      "name": "fsdfsdafdsa",
+      "email": "tttp1704@gmail.111111",
+      "password": "212323232"
+    },
+    {
+      "id": "49e8",
+      "name": "sdfsdfsd",
+      "email": "tttp1704@gmail.1112",
+      "password": "212323232"
+    },
+    {
+      "id": "ebe4",
+      "name": "ádasdasd",
+      "email": "tttp1704@gmail.11122",
+      "password": "212323232"
+    },
+    {
+      "id": "d557",
+      "name": "Nguyễn Tấn Phát",
+      "email": "tttp1704@gmail.11133",
+      "password": "212323232"
+    },
+    {
+      "id": "2aa9",
+      "name": "phat nguyễn",
+      "email": "phatntph36792@fpt.edu.vn",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "3d52",
+      "email": "phatntph36792@fpt.edu.v",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "3bb9",
+      "email": "phatntph36792@fpt.edu.vnnnnggng",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "4c50",
+      "email": "phatntph36792@fpt.edu.vnnnnggng",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "223f",
+      "email": "phatntph36792@fpt.edu.vnnnnggng",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "d66c",
+      "email": "phatntph36792@fpt.edu.vnnnnggn",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "0dc4",
+      "email": "phatntph36792@fpt.edu.vnnnnggn",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "5faa",
+      "email": "tttp1704@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "df2f",
+      "email": "phatntph36792@fpt.edu.vnnnnggn",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "a284",
+      "email": "phatntph36792@fpt.edu.vnnnnggn",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "466f",
+      "email": "phatntph36792@fpt.edu.vnnnnggn",
+      "password": "phatdz17052004"
+    },
+    {
+      "id": "47cd",
+      "name": "phat nguyễn",
+      "email": "phatntph36792@fpt.edu.vnnnnggn",
+      "password": "phatdz17052004"
+    },
+    {
+      "email": "phatntph36792@fpt.edu.vnnnnggn",
+      "password": "phatdz17052004",
+      "id": "l_tR6ga"
+    }
+  ],
+  "products": [
+    {
+      "id": "_egqgngx8n",
+      "name": "phat",
+      "category": "TQMMMM",
+      "price": 2323232,
+      "desc": "dsdsd"
+    },
+    {
+      "name": "phat23232",
+      "category": "TQMMMM",
+      "price": 22222222222333,
+      "desc": "dsdsd",
+      "id": "_inrayon4g"
+    },
+    {
+      "name": "manhngu",
+      "category": "TQMMMM",
+      "price": 23232,
+      "desc": "dsdsd",
+      "id": "_txq4o8lxm"
+    }
+  ],
+  "categories": [
+    {
+      "id": "a0d5",
+      "name": "iphone 1"
+    },
+    {
+      "id": "3068",
+      "name": "TQMMMM"
+    },
+    {
+      "id": "e09d",
+      "name": "QMANHq12323232"
+    }
+  ]
+}

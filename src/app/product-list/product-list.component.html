@@ -1,0 +1,23 @@
+<table class="min-w-full bg-white shadow-md rounded-md overflow-hidden">
+  <thead class="bg-gray-800 text-white">
+    <tr>
+      <th class="w-1/6 py-2 px-4 text-center">Tên sản phẩm</th>
+      <th class="w-1/6 py-2 px-4 text-center">Danh mục</th>
+      <th class="w-1/6 py-2 px-4 text-center">Giá</th>
+      <th class="w-2/6 py-2 px-4 text-center">Mô tả</th>
+      <th class="w-1/6 py-2 px-4 text-center">Hành động</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products" class="text-gray-700">
+      <td class="border py-2 px-4 text-center">{{ product.name }}</td>
+      <td class="border py-2 px-4 text-center">{{ product.category }}</td>
+      <td class="border py-2 px-4 text-center">{{ product.price }}</td>
+      <td class="border py-2 px-4 text-center">{{ product.desc }}</td>
+      <td class="border py-2 px-4 flex items-center justify-center">
+        <a [routerLink]="['/admin/edit-product', product.id]" class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-3 rounded mr-2 inline-block">Sửa</a>
+        <button *ngIf="product.id" (click)="deleteProduct(product.id)" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-1 px-3 rounded inline-block">Xóa</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
