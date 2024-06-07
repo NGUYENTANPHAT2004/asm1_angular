@@ -10,9 +10,21 @@ export class ProductServiceService {
   private apiUrl = 'http://localhost:3000';
 
   constructor(private http: HttpClient) {}
-
+  getProductsByCategory(category: string): Observable<any> {
+    return this.http.get(`${this.apiUrl}/products?category=${category}`);
+  }
   Get_All_Products = (): Observable<any> => {
     return this.http.get(`${this.apiUrl}/products`);
+  }
+  getFilteredProducts(category: string, searchQuery: string): Observable<any> {
+    let query = `${this.apiUrl}/products?`;
+    if (category) {
+      query += `category=${category}&`;
+    }
+    if (searchQuery) {
+      query += `name_like=${searchQuery}`;
+    }
+    return this.http.get(query);
   }
 
   Get_Product_By_ID = (id: string): Observable<any> => {

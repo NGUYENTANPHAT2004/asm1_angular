@@ -3,13 +3,13 @@ import { Injectable } from '@angular/core';
 import { User } from '../../interface/user';
 import { Observable } from 'rxjs';
 import { jwtDecode } from 'jwt-decode';
-
+import { Router } from '@angular/router';
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
   API_URL = 'http://localhost:3000'
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient,private router: Router) { }
   RegisterUser = (data:User):Observable<any>=>{
     return this.http.post(this.API_URL+'/register', data)
   }
@@ -30,5 +30,9 @@ export class AuthService {
 
     }
     return check
+  }
+  logout(): void {
+    localStorage.removeItem('user');
+    this.router.navigate(['login']);
   }
 }

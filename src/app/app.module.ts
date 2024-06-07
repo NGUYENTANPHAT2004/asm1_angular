@@ -21,6 +21,8 @@ import { AddCategoryComponent } from './add-category/add-category.component';
 import { EditProductComponent } from './edit-product/edit-product.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +44,8 @@ import { LoginComponent } from './login/login.component';
     EditProductComponent,
     RegisterComponent,
     LoginComponent,
+    ProductDetailsComponent,
+    CategoryComponent,
   ],
   imports: [
     BrowserModule,

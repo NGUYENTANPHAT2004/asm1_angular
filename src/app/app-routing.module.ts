@@ -13,19 +13,24 @@ import { EditProductComponent } from './edit-product/edit-product.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AuthGuard } from './auth.guard';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { CategoryComponent } from './category/category.component';
 const routes: Routes = [
   { path: '', redirectTo: 'admin', pathMatch: 'full' },
+  { path: 'home', component : HomeComponent},
+  { path: 'admin/product-detail/:id', component : ProductDetailsComponent},
   { path: 'product', component: ProductComponent },
   { path: 'product1', component: Product1Component },
   { path: 'cart', component: CartComponent },
   { path: 'website', component: WebsiteComponent },
   { path: 'dashboard', component: DashboradComponent },
   { path: 'admin/add-product', component: AddProductComponent },
-  { path: 'admin', component: AdminComponent , },
+  { path: 'admin', component: AdminComponent ,canActivate: [AuthGuard] },
   { path: 'admin/edit-product/:id', component: EditProductComponent },
   { path: 'admin/add-category', component: AddCategoryComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
+  { path: 'admin/category/:category', component: CategoryComponent },
 ];
 
 @NgModule({

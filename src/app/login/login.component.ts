@@ -28,7 +28,6 @@ export class LoginComponent implements OnInit {
   onLogin = ()=>{
     this.authService.UserLogin(this.loginForm.value as User).subscribe(
       data=>{
-         console.log(data);
          localStorage.setItem('user',data.accessToken)
           alert('Đăng nhập thành công')
           this.router.navigate(['admin']);

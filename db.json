@@ -126,6 +126,30 @@
       "email": "phatntph36792@fpt.edu.vnnnnggn",
       "password": "phatdz17052004",
       "id": "l_tR6ga"
+    },
+    {
+      "email": "phatntph36792@fpt.edu.xn--vnnnnggnd-ygb",
+      "password": "$2a$10$0QyzIsxD/pTLFMV.Ay6sE.QIQmzuuj8QCCpFOJ728ObljRqqQjoL.",
+      "name": "Men's • Originals",
+      "id": "uyqK8x9"
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$QSuTV5mn4qpD.ez4PMDH8eVaduVjBaxSpkLgfcEtj03l.MhacFgmO",
+      "name": "phat",
+      "id": "_ecKLnL"
+    },
+    {
+      "email": "admin1@gmail.com2222222333331212112",
+      "password": "$2a$10$V4cedZOSOeFjcBH27gM.veQSpPQ.DkwxWXXyoIIUvyP9BkKwqOj7a",
+      "name": "phat nguyễn",
+      "id": "CQErtM5"
+    },
+    {
+      "email": "admin11@gmail.com",
+      "password": "$2a$10$E6NKJ1DG2u9Hh1TRVYDkr.4OyoT/czsgvH1Cu6y9tuy3ah056OI92",
+      "name": "phat1",
+      "id": "ebFUrXQ"
     }
   ],
   "products": [
@@ -144,11 +168,11 @@
       "id": "_inrayon4g"
     },
     {
-      "name": "manhngu",
-      "category": "TQMMMM",
-      "price": 23232,
-      "desc": "dsdsd",
-      "id": "_txq4o8lxm"
+      "name": "phat2322",
+      "category": "sp-6",
+      "price": 22222222222,
+      "desc": "ko",
+      "id": "_d0k0vtrlf"
     }
   ],
   "categories": [
@@ -163,6 +187,10 @@
     {
       "id": "e09d",
       "name": "QMANHq12323232"
+    },
+    {
+      "name": "sp-6",
+      "id": "6op84EE"
     }
   ]
 }

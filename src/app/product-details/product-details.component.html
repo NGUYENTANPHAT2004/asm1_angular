@@ -1,0 +1,11 @@
+<div *ngIf="product" class="container mx-auto px-4 py-6 bg-white shadow-lg rounded-lg">
+  <h1 class="text-3xl font-bold mb-4 text-gray-800">{{ product.name }}</h1>
+  <div class="flex flex-col md:flex-row md:space-x-4">
+    <p class="mb-4 text-lg"><strong>Tên sản phẩm:</strong> <span class="text-gray-600">{{ product.name }}</span></p>
+    <div class="md:w-2/3">
+      <p class="mb-4 text-lg"><strong>Danh mục:</strong> <span class="text-gray-600">{{ product.category }}</span></p>
+      <p class="mb-4 text-lg"><strong>Giá:</strong> <span class="text-gray-600">{{ product.price | currency }}</span></p>
+      <p class="mb-4 text-lg"><strong>Mô tả:</strong> <span class="text-gray-600">{{ product.desc }}</span></p>
+    </div>
+  </div>
+</div>

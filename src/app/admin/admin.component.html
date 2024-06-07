@@ -7,5 +7,8 @@
   <div class="absolute top-0 right-0 mt-4">
     <a routerLink="/register" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mb-3 inline-block no-underline mr-5">Đăng kí</a>
     <a routerLink="/login" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mb-3 inline-block no-underline mr-5">Đăng nhập</a>
+    <button (click)="logout()" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mb-3 inline-block no-underline">Đăng xuất</button>
   </div>
 </div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
